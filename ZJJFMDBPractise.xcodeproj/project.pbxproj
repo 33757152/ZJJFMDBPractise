@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		89E78A821F14C2CA00303B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78A811F14C2CA00303B2C /* main.m */; };
 		89E78A851F14C2CA00303B2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78A841F14C2CA00303B2C /* AppDelegate.m */; };
-		89E78A881F14C2CA00303B2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78A871F14C2CA00303B2C /* ViewController.m */; };
 		89E78A8B1F14C2CA00303B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E78A891F14C2CA00303B2C /* Main.storyboard */; };
 		89E78A8D1F14C2CA00303B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E78A8C1F14C2CA00303B2C /* Assets.xcassets */; };
 		89E78A901F14C2CA00303B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E78A8E1F14C2CA00303B2C /* LaunchScreen.storyboard */; };
+		89E78A9B1F14C36300303B2C /* ZJJDatabaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78A9A1F14C36300303B2C /* ZJJDatabaseTool.m */; };
+		89E78A9E1F14C3E000303B2C /* ZJJPeopleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78A9D1F14C3E000303B2C /* ZJJPeopleInfo.m */; };
+		89E78AA21F14CBB600303B2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78AA11F14CBB600303B2C /* ViewController.m */; };
+		89E78AA51F14CC3300303B2C /* ZJJTableInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E78AA41F14CC3300303B2C /* ZJJTableInfoVC.m */; };
+		9613971370DF6BDC80EDC45C /* Pods_ZJJFMDBPractise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BDFA24F2CF2322013558B1 /* Pods_ZJJFMDBPractise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A956AEA40B92F5624518EF9 /* Pods-ZJJFMDBPractise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJFMDBPractise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJJFMDBPractise/Pods-ZJJFMDBPractise.debug.xcconfig"; sourceTree = "<group>"; };
+		877C14F10FC737B38CFAD578 /* Pods-ZJJFMDBPractise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJFMDBPractise.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJJFMDBPractise/Pods-ZJJFMDBPractise.release.xcconfig"; sourceTree = "<group>"; };
 		89E78A7D1F14C2CA00303B2C /* ZJJFMDBPractise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJJFMDBPractise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E78A811F14C2CA00303B2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89E78A831F14C2CA00303B2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89E78A841F14C2CA00303B2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89E78A861F14C2CA00303B2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		89E78A871F14C2CA00303B2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89E78A8A1F14C2CA00303B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89E78A8C1F14C2CA00303B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89E78A8F1F14C2CA00303B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E78A911F14C2CA00303B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E78A991F14C36300303B2C /* ZJJDatabaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJDatabaseTool.h; sourceTree = "<group>"; };
+		89E78A9A1F14C36300303B2C /* ZJJDatabaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJDatabaseTool.m; sourceTree = "<group>"; };
+		89E78A9C1F14C3E000303B2C /* ZJJPeopleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJPeopleInfo.h; sourceTree = "<group>"; };
+		89E78A9D1F14C3E000303B2C /* ZJJPeopleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJPeopleInfo.m; sourceTree = "<group>"; };
+		89E78AA01F14CBB600303B2C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E78AA11F14CBB600303B2C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E78AA31F14CC3300303B2C /* ZJJTableInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJTableInfoVC.h; sourceTree = "<group>"; };
+		89E78AA41F14CC3300303B2C /* ZJJTableInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJTableInfoVC.m; sourceTree = "<group>"; };
+		89E78AA61F14D0D100303B2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		93BDFA24F2CF2322013558B1 /* Pods_ZJJFMDBPractise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJJFMDBPractise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9613971370DF6BDC80EDC45C /* Pods_ZJJFMDBPractise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8B13D11AA995DEBDF46707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BDFA24F2CF2322013558B1 /* Pods_ZJJFMDBPractise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32D27D3C9DC1BA70385AC2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A956AEA40B92F5624518EF9 /* Pods-ZJJFMDBPractise.debug.xcconfig */,
+				877C14F10FC737B38CFAD578 /* Pods-ZJJFMDBPractise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		89E78A741F14C2CA00303B2C = {
 			isa = PBXGroup;
 			children = (
 				89E78A7F1F14C2CA00303B2C /* ZJJFMDBPractise */,
 				89E78A7E1F14C2CA00303B2C /* Products */,
+				32D27D3C9DC1BA70385AC2E0 /* Pods */,
+				0B8B13D11AA995DEBDF46707 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +92,11 @@
 		89E78A7F1F14C2CA00303B2C /* ZJJFMDBPractise */ = {
 			isa = PBXGroup;
 			children = (
+				89E78A981F14C36300303B2C /* Tool */,
+				89E78A971F14C36300303B2C /* Model */,
+				89E78A9F1F14CB7600303B2C /* ZJJVC */,
 				89E78A831F14C2CA00303B2C /* AppDelegate.h */,
 				89E78A841F14C2CA00303B2C /* AppDelegate.m */,
-				89E78A861F14C2CA00303B2C /* ViewController.h */,
-				89E78A871F14C2CA00303B2C /* ViewController.m */,
 				89E78A891F14C2CA00303B2C /* Main.storyboard */,
 				89E78A8C1F14C2CA00303B2C /* Assets.xcassets */,
 				89E78A8E1F14C2CA00303B2C /* LaunchScreen.storyboard */,
@@ -75,8 +110,38 @@
 			isa = PBXGroup;
 			children = (
 				89E78A811F14C2CA00303B2C /* main.m */,
+				89E78AA61F14D0D100303B2C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E78A971F14C36300303B2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89E78A9C1F14C3E000303B2C /* ZJJPeopleInfo.h */,
+				89E78A9D1F14C3E000303B2C /* ZJJPeopleInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89E78A981F14C36300303B2C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				89E78A991F14C36300303B2C /* ZJJDatabaseTool.h */,
+				89E78A9A1F14C36300303B2C /* ZJJDatabaseTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		89E78A9F1F14CB7600303B2C /* ZJJVC */ = {
+			isa = PBXGroup;
+			children = (
+				89E78AA01F14CBB600303B2C /* ViewController.h */,
+				89E78AA11F14CBB600303B2C /* ViewController.m */,
+				89E78AA31F14CC3300303B2C /* ZJJTableInfoVC.h */,
+				89E78AA41F14CC3300303B2C /* ZJJTableInfoVC.m */,
+			);
+			path = ZJJVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E78A941F14C2CA00303B2C /* Build configuration list for PBXNativeTarget "ZJJFMDBPractise" */;
 			buildPhases = (
+				C30D2E30E5E4EDDCBD9343A4 /* [CP] Check Pods Manifest.lock */,
 				89E78A791F14C2CA00303B2C /* Sources */,
 				89E78A7A1F14C2CA00303B2C /* Frameworks */,
 				89E78A7B1F14C2CA00303B2C /* Resources */,
+				92B9E0FB004045479E0C2327 /* [CP] Embed Pods Frameworks */,
+				751A3264A41DB2CFC2F8C23A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +214,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		751A3264A41DB2CFC2F8C23A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJJFMDBPractise/Pods-ZJJFMDBPractise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B9E0FB004045479E0C2327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJJFMDBPractise/Pods-ZJJFMDBPractise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30D2E30E5E4EDDCBD9343A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89E78A791F14C2CA00303B2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E78A881F14C2CA00303B2C /* ViewController.m in Sources */,
+				89E78A9B1F14C36300303B2C /* ZJJDatabaseTool.m in Sources */,
 				89E78A851F14C2CA00303B2C /* AppDelegate.m in Sources */,
+				89E78AA51F14CC3300303B2C /* ZJJTableInfoVC.m in Sources */,
 				89E78A821F14C2CA00303B2C /* main.m in Sources */,
+				89E78A9E1F14C3E000303B2C /* ZJJPeopleInfo.m in Sources */,
+				89E78AA21F14CBB600303B2C /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,25 +392,31 @@
 		};
 		89E78A951F14C2CA00303B2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A956AEA40B92F5624518EF9 /* Pods-ZJJFMDBPractise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B77E2S42YJ;
+				GCC_PREFIX_HEADER = /Users/zhangjinjiang/Desktop/ZJJFMDBPractise/ZJJFMDBPractise/PrefixHeader.pch;
 				INFOPLIST_FILE = ZJJFMDBPractise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.fengpu.ZJJFMDBPractise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		89E78A961F14C2CA00303B2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877C14F10FC737B38CFAD578 /* Pods-ZJJFMDBPractise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B77E2S42YJ;
+				GCC_PREFIX_HEADER = /Users/zhangjinjiang/Desktop/ZJJFMDBPractise/ZJJFMDBPractise/PrefixHeader.pch;
 				INFOPLIST_FILE = ZJJFMDBPractise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.fengpu.ZJJFMDBPractise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -314,6 +439,7 @@
 				89E78A961F14C2CA00303B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
