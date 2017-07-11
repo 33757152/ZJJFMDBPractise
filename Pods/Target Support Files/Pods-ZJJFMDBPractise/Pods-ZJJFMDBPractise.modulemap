@@ -1,0 +1,6 @@
+framework module Pods_ZJJFMDBPractise {
+  umbrella header "Pods-ZJJFMDBPractise-umbrella.h"
+
+  export *
+  module * { export * }
+}
